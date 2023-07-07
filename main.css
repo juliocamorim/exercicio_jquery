@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(206, 206, 206);
+}
+
+header {
+    padding-top: 90px;
+    color:rgb(0, 0, 0);
+    display: flex;
+    border-bottom: 16px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 29px;
+    padding-bottom: 50px;
+}
+
+form {
+    text-align: center;
+    
+}
+
+input {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    height: 48px;
+    width: 300px;
+    background-color:  rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    height: 48px;
+    width: 100px;
+    background-color: rgb(40, 241, 0);
+}
+
+.tarefa {
+    padding: 50px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    cursor: pointer;
+    font-size: 24px;
+    font-style: normal;
+    text-transform:none;
+}
+
+.done {
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+}
